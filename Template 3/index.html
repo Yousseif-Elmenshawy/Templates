@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoleStreet | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">SoleStreet</a>
+      <nav id="primary-nav" class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html" class="cart-link">Cart <span class="cart-count">0</span></a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle theme">Dark Mode</button>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">New Collection 2026</p>
+          <h1>Fresh Kicks for Every Step</h1>
+          <p>Shop top-quality shoes for running, streetwear, and daily comfort.</p>
+          <a class="btn" href="products.html">Shop Now</a>
+        </div>
+        <div class="hero-card">
+          <h3>Fast Delivery</h3>
+          <p>Get your order delivered in 2-4 business days.</p>
+          <h3>Easy Returns</h3>
+          <p>Free 14-day returns on all orders.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Featured Shoes</h2>
+        <div id="featured-products" class="product-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 SoleStreet. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
